@@ -74,10 +74,10 @@ function load_config(): void
 	define('MSGENCRYPTED', false); // Store messages encrypted in the database to prevent other database users from reading them - true/false - visit the setup page after editing!
 	define('ENCRYPTKEY_PASS', 'MY_SECRET_KEY'); // Recommended length: 32. Encryption key for messages
 	define('AES_IV_PASS', '012345678912'); // Recommended length: 12. AES Encryption IV
-	define('DBHOST', 'sql308.infinityfree.com'); // Database host
-	define('DBUSER', 'if0_38221005'); // Database user
-	define('DBPASS', 'fzKEJirutT9de'); // Database password
-	define('DBNAME', 'if0_38221005_anonchat'); // Database
+	define('DBHOST', 'Your Host Name'); // Database host
+	define('DBUSER', 'Your Database Username'); // Database user
+	define('DBPASS', 'Your Database Password'); // Database password
+	define('DBNAME', 'Your Database Name'); // Database
 	define('PERSISTENT', true); // Use persistent database conection true/false
 	define('PREFIX', ''); // Prefix - Set this to a unique value for every chat, if you have more than 1 chats on the same database or domain - use only alpha-numeric values (A-Z, a-z, 0-9, or _) other symbols might break the queries
 	define('MEMCACHED', false); // Enable/disable memcached caching true/false - needs memcached extension and a memcached server.
