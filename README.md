@@ -3,7 +3,7 @@
 ---------------------
 
 This is a PHP Chat based on **LE CHAT v.1.14**. An up-to-date copy of this script can be downloaded at [https://github.com/DanWin/le-chat-php](https://github.com/DanWin/le-chat-php).  
-The original Perl **LE CHAT** script by **Lucky Eddie** can be downloaded at [this GitHub fork](https://github.com/virtualghetto/lechat). If you want to download my version, you can download it from (https://github.com/TheInternetGod/AnonChat).
+The original Perl **LE CHAT** script by **Lucky Eddie** can be downloaded at [this GitHub fork](https://github.com/virtualghetto/lechat). If you want to download my version, you can download it from (https://github.com/TheInternetGod/Anon-Chat).
 
 If you add your own cool features or have a feature request, please tell me and I will add them if I like them.  
 Please also let me know about any bugs you find in the code, so I can fix them.
