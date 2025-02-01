@@ -93,7 +93,7 @@ To test the application locally, we recommend using a local server like **XAMPP*
 
 ### Step 3: **Test Database Connection**
 
-- Open `test_db.php` in your browser.
+- Put the database credentials in `test_db.php` and open it in your browser.
 - If the connection is successful, the tables will be automatically created. If there's an issue with the connection, ensure that the database credentials in `chat.php` are correct.
 
 ### Step 4: **Finalize Configuration**
