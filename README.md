@@ -67,7 +67,12 @@ Make sure the following PHP extensions are enabled:
 - `mbstring`  
 - `date`
 
-If you're unsure whether these extensions are enabled, you can check via your `phpinfo()` or in your hosting control panel.
+If you're unsure whether these extensions are enabled, you can check via your `phpinfo()` or in your hosting control panel. Optionally, you can also install:
+
+- `The gd extension for the captcha feature.`
+- `The json extension for save/restore
+a memcached server and the memcached extension and change the configuration to use memcached. This will lessen the database load a bit.`
+- `The libsodium extension (PHP >= 7.2) for encryption of messages and notes in the database.`
 
 ### 3. **Database**:  
 You can use **SQLite** or **MySQL** (recommended) for your database. Make sure the database extensions (`pdo_mysql` or `pdo_sqlite`) are enabled on your server.
@@ -153,6 +158,28 @@ ErrorDocument 404 /404.html
 ErrorDocument 500 /500.html
 
 ```
+
+Translating:
+------------
+
+Translations are managed in [Weblate](https://weblate.danwin1210.de/projects/DanWin/le-chat-php).
+If you prefer manually submitting translations, the script `update-translations.sh` can be used to update the language template and translation files from source.
+It will generate the file `locale/le-chat-php.pot` which you can then use as basis to create a new language file in `YOUR_LANG_CODE/LC_MESSAGES/le-chat-php.po` and edit it with a translation program, such as [Poedit](https://poedit.net/).
+Once you are done, you can open a pull request, or [email me](mailto:daniel@danwin1210.de), to include the translation.
+
+Regex:
+------
+
+Yes, the chat supports regular expression filtering of messages. As regex tends to be difficult for most people, I decided to give it an extra section here.
+Regex is very powerful and can be used to filter messages that contain certain expressions and replace them with something else.
+It can be used e.g. to turn BB Code into html, so it is possible to use BB Code in the chat to format messages.
+To do this, use this Regex-Match `\[(u|b)\](.*?)\[\/\1\]` and this Regex-Replace `<$1>$2</$1>` and your text will be `[b]bold[/b]` or `[u]underlined[/u]`.
+You can also use smilies by using this Regex-Match `(?-i::(cry|eek|lol|sad|smile|surprised|wink):)` and this Regex-Replace `<img src="/pictures/$1.gif" alt=":$1:">`
+And now if you enter `:smile:` an image with the smiley will be loaded from your server at `/pictures/smile.gif`.
+The following should be escaped by putting `\` in front of it, if you are trying to match one of these characters `/ \ ^ . $ | ( ) [ ] * + ? { } ,`.
+I used `/` as delimiter, so you will have to escape that, too. The only options I used is `i` to make the regex case insensitive.
+If you want to test your regex, before applying you can use [this site](http://www.phpliveregex.com/) and enter your Regex and Replacement there and click on preg_replace.
+If you never used regex before, check out [this starting guide](http://docs.activestate.com/komodo/4.4/regex-intro.html) to begin with regular expressions.
 
 ## Conclusion
 
