@@ -93,7 +93,7 @@ To test the application locally, we recommend using a local server like **XAMPP*
 ### Step 2: **Configure the Database**
 
 1. Edit the `chat.php` file to configure your database settings. This includes specifying whether you're using SQLite or MySQL.
-2. If you're using **MySQL**, create a database (e.g., `anon_chat`) and ensure the user has proper permissions.
+2. If you're using **MySQL**, create a database (e.g., `Cybersecurity_chat`) and ensure the user has proper permissions.
 3. The application will automatically create the necessary tables once the connection is successful. You do not need to create tables manually.
 
 ### Step 3: **Test Database Connection**
@@ -183,7 +183,7 @@ If you never used regex before, check out [this starting guide](http://docs.acti
 
 ## Conclusion
 
-You are now ready to host and use **Anon Chat**! The application automatically creates the necessary database tables, so you only need to configure the database connection. If you run into any issues with server access, adding the `.htaccess` file should resolve the problem.
+You are now ready to host and use **Cybersecurity Chat**! The application automatically creates the necessary database tables, so you only need to configure the database connection. If you run into any issues with server access, adding the `.htaccess` file should resolve the problem.
 
 Feel free to reach out if you encounter any issues during setup.
 
