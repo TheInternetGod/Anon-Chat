@@ -39,13 +39,13 @@ The "LE" in the name can be taken as "Lucky Eddie" or, since the script was mean
 
 ---
 
-## Hosting Guide for **Anon Chat**
+## Hosting Guide for **Cybersecurity Chat**
 
 ### Overview
 
-**Anon Chat** is a simple, anonymous PHP chat application that allows users to chat without the need for registration using personal data. It supports multiple features like private messaging, image embedding, multi-language support, and more.
+**Cybersecurity Chat** is a simple, anonymous PHP chat application that allows users to chat without the need for registration using personal data. It supports multiple features like private messaging, image embedding, multi-language support, and more.
 
-This guide will walk you through the steps of hosting **Anon Chat** on your local server (e.g., XAMPP) or a live web server.
+This guide will walk you through the steps of hosting **Cybersecurity Chat** on your local server (e.g., XAMPP) or a live web server.
 
 ---
 
@@ -87,7 +87,7 @@ To test the application locally, we recommend using a local server like **XAMPP*
 
 1. Download and install **XAMPP** from [here](https://www.apachefriends.org/index.html).
 2. Start the **Apache** and **MySQL** services from the XAMPP control panel.
-3. Place the **Anon Chat** files inside the `htdocs` directory in the XAMPP installation folder (C:\xampp\htdocs\).
+3. Place the **Cybersecurity Chat** files inside the `htdocs` directory in the XAMPP installation folder (C:\xampp\htdocs\).
 4. Access the application and setup the superacmin account in your browser by going to (http://localhost/chat.php?action=setup).
 
 ### Step 2: **Configure the Database**
@@ -116,7 +116,7 @@ Once you are familiar with the application and everything works locally, you can
 
 ### Step 1: **Upload Files to Your Hosting Server**
 
-Upload the entire **Anon Chat** folders and files to the **htdocs** or equivalent directory on your hosting platform.
+Upload the entire **Cybersecurity Chat** folders and files to the **htdocs** or equivalent directory on your hosting platform.
 
 ### Step 2: **Database Configuration**
 
