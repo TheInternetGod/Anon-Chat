@@ -93,7 +93,7 @@ To test the application locally, we recommend using a local server like **XAMPP*
 ### Step 2: **Configure the Database**
 
 1. Edit the `chat.php` file to configure your database settings. This includes specifying whether you're using SQLite or MySQL.
-2. If you're using **MySQL**, create a database (e.g., `Cybersecurity_chat`) and ensure the user has proper permissions.
+2. If you're using **MySQL**, create a database (e.g., `Le_chat`) and ensure the user has proper permissions.
 3. The application will automatically create the necessary tables once the connection is successful. You do not need to create tables manually.
 
 ### Step 3: **Test Database Connection**
