@@ -2,7 +2,8 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-# Set chat.php as the default index file
+# Set chat.php as the default index file.
+# If chat.php does not work and shows a 403 error or similar, rename it to index.php, as some hosting services restrict files like chat.php.
 DirectoryIndex chat.php
 
 # Allow access to all files
@@ -17,4 +18,3 @@ Options -Indexes
 # Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
