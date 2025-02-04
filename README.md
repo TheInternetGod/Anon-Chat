@@ -87,7 +87,7 @@ To test the application locally, we recommend using a local server like **XAMPP*
 
 1. Download and install **XAMPP** from [here](https://www.apachefriends.org/index.html).
 2. Start the **Apache** and **MySQL** services from the XAMPP control panel.
-3. Place the **Cybersecurity Chat** files inside the `htdocs` directory in the XAMPP installation folder (C:\xampp\htdocs\).
+3. Place the **Le-Chat** files inside the `htdocs` directory in the XAMPP installation folder (C:\xampp\htdocs\).
 4. Access the application and setup the superacmin account in your browser by going to (http://localhost/chat.php?action=setup).
 
 ### Step 2: **Configure the Database**
