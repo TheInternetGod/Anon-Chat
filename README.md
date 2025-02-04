@@ -3,7 +3,7 @@
 ---------------------
 
 This is a PHP Chat based on **LE CHAT v.1.14**. An up-to-date copy of this script can be downloaded at [https://github.com/DanWin/le-chat-php](https://github.com/DanWin/le-chat-php).  
-The original Perl **LE CHAT** script by **Lucky Eddie** can be downloaded at [this GitHub fork](https://github.com/virtualghetto/lechat). If you want to download my version, you can download it from (https://github.com/TheInternetGod/Cybersecurity-Chat).
+The original Perl **LE CHAT** script by **Lucky Eddie** can be downloaded at [this GitHub fork](https://github.com/virtualghetto/lechat). If you want to download my version, you can download it from (https://github.com/TheInternetGod/Le-Chat).
 
 If you add your own cool features or have a feature request, please tell me and I will add them if I like them.  
 Please also let me know about any bugs you find in the code, so I can fix them.
@@ -39,13 +39,13 @@ The "LE" in the name can be taken as "Lucky Eddie" or, since the script was mean
 
 ---
 
-## Hosting Guide for **Cybersecurity Chat**
+## Hosting Guide for **Le-Chat**
 
 ### Overview
 
-**Cybersecurity Chat** is a simple, anonymous PHP chat application that allows users to chat without the need for registration using personal data. It supports multiple features like private messaging, image embedding, multi-language support, and more.
+**Le-Chat** is a simple, anonymous PHP chat application that allows users to chat without the need for registration using personal data. It supports multiple features like private messaging, image embedding, multi-language support, and more.
 
-This guide will walk you through the steps of hosting **Cybersecurity Chat** on your local server (e.g., XAMPP) or a live web server.
+This guide will walk you through the steps of hosting **Le-Chat** on your local server (e.g., XAMPP) or a live web server.
 
 ---
 
@@ -116,7 +116,7 @@ Once you are familiar with the application and everything works locally, you can
 
 ### Step 1: **Upload Files to Your Hosting Server**
 
-Upload the entire **Cybersecurity Chat** folders and files to the **htdocs** or equivalent directory on your hosting platform.
+Upload the entire **Le-Chat** folders and files to the **htdocs** or equivalent directory on your hosting platform.
 
 ### Step 2: **Database Configuration**
 
@@ -183,7 +183,7 @@ If you never used regex before, check out [this starting guide](http://docs.acti
 
 ## Conclusion
 
-You are now ready to host and use **Cybersecurity Chat**! The application automatically creates the necessary database tables, so you only need to configure the database connection. If you run into any issues with server access, adding the `.htaccess` file should resolve the problem.
+You are now ready to host and use **Le-Chat**! The application automatically creates the necessary database tables, so you only need to configure the database connection. If you run into any issues with server access, adding the `.htaccess` file should resolve the problem.
 
 Feel free to reach out if you encounter any issues during setup.
 
